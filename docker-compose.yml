@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-     image: jpavlakis/get-started:part2
+     image: jpavlakis/get-started:latest
      deploy:
         replicas: 4
         resources:
